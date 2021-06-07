@@ -1,0 +1,25 @@
+.lists{
+    color:black;
+    background:lavender;
+    width: 310px;
+    height: 30px;
+    margin: 16px auto;
+    border-radius: 5px;
+    padding-left: 14px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.delete{
+    width: auto;
+  height: 32px;
+  border-radius: 13px;
+  margin-left: 6px; 
+  background-color: darkorange;
+}
+.update{
+  width: auto;
+height: 32px;
+border-radius: 13px;
+/* margin-left:;;  */
+background-color: darkorange;
+}

@@ -1,38 +1,43 @@
-.App {
+body{
+  background-color:whitesmoke ;
+}
+
+.App{
+  background-color:rgb(208, 231, 245);
+
+  min-height: 350px;
+  width: 400px;
+  margin: 40px auto;
+  border: 3px solid red;
+   border-radius: 23px;
+}
+
+#todo-form input{
+ 
+background-color: rgb(217, 187, 231);
+border: 0;
+color:floralwhite;
+width:200px;
+height: 30px;
+margin-left: 4px;
+border-radius: 12px;
+}
+
+#todo-form button{
+  width: auto;
+  height: 32px;
+  border-radius: 13px;
+  margin-left: 6px; 
+  background-color: darkorange;
+}
+#todo-form{
+  width:300px;
+  text-align:center;
+}
+.mainheading{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 34px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
